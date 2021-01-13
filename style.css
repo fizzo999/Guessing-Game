@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  box-sizing: border-box;
+}
+
+h1 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: #fff;
+  padding: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav {
+  background: rgb(76, 86, 134);
+  margin-top: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+nav ul li {
+  font-size: 1.5rem;
+  border: 1px solid black;
+  padding: 15px 50px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  background: rgb(178, 168, 233);
+  font-weight: 900;
+}
+
+nav ul li:hover {
+  background: #fff;
+  font-size: 1.5rem;
+  padding: 15px 50px;
+  margin: 20px 10px;
+}
+
+a:hover {
+  color: coral;
+}
+
+
+.top {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 50%;
+  padding: 2rem;
+  margin: 2rem auto;
+  font-size: 2rem;
+  text-align: center;
+  }
+
+.number1 {
+  color:#fff;
+  background-color: rgb(58, 37, 179);
+  font-weight: 900;
+}
+
+.number2 {
+  color:rgb(233, 235, 209);
+  background-color: rgb(36, 35, 102);
+}
+
+.number3 {
+  color:rgb(1, 6, 250);
+  background-color: rgb(154, 233, 167);
+}
+
+.number4 {
+  color:rgb(3, 3, 3);
+  background-color: rgb(252, 104, 252);
+}
+
+.answer {
+  background: coral;
+  color: black;
+  font-weight: 900;
+  border: 3px solid black;
+}
+section {
+  padding: 30px;
+
+}
+
+#tec {
+  background: cornflowerblue;
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+}
+h2 {
+  color: black;
+  padding: 20px 0;
+}
+
+#exp {
+  background: rgb(141, 175, 238);
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+
+}
+
+#edu {
+  background: cornflowerblue;
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+}
