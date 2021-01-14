@@ -31,6 +31,13 @@ a {
   color: #000;
 }
 
+/* header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+} */
+
 nav {
   background: rgb(58, 37, 179);
   margin-top: 0;
