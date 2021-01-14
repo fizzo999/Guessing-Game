@@ -70,4 +70,27 @@ if ((userCode == 'yes') || (userCode == 'y')) {
 var el = document.getElementById('name');
 el.textContent = 'Welcome to my site, ' + guestName;
 var el2 = document.getElementById('name2');
-el2.textContent = guestName + 'You had ' + correctAnswer + ' correct answers';
+el2.textContent = guestName + ', You had ' + correctAnswer + ' correct answers';
+// Question number 6 - secret number guessing game
+var secretNumber = 7
+var guessIt = 0
+var triesLeft = 5
+for (var i = 1; i <= 4; i++) {
+  // console.log('loop is running' + i);
+  guessIt = prompt('Guess a number between 1 and 10 - you have ' + (triesLeft - i) + ' tries left');
+  while ((guessIt > 10) || (guessIt < 1)) {
+    console.log('outside range number ' + guessIt + ' tries left ' + i)
+    guessIt = prompt('Please only enter numbers from 1 to 10 ! ' + (triesLeft - i) + ' tries left');
+  }
+  if (guessIt > secretNumber) {
+    alert('too high');
+  } else if (guessIt < secretNumber) {
+    alert('too low');
+  } else if (guessIt == secretNumber) {
+    alert('BINGO');
+    break;
+  } else alert('numbers only please');
+}
+var el3 = document.getElementById('name3');
+el3.textContent = guestName + ', You already knew that number! It only took ' + i + ' tries for you to tune in. Great JOB, master';
+console.log('loop is done');
