@@ -1,5 +1,6 @@
 
 // Question number 7 array
+function countries() {
 var countriesIveBeen = ['Austria', 'Germany', 'Switzerland', 'Russia', 'USA', 'Mexico', 'Canada', 'Spain', 'Portugal', 'Czech Republic', 'Slovania', 'Greece', 'Italy'];
 var correctGuessNumber = 0
 var triesLeft = 6;
@@ -39,3 +40,6 @@ el4.textContent = guestName + ' ! Congratulations ! You guessed ' + correctGuess
 var el5 = document.getElementById('name5');
 el5.textContent = countryListString;
 console.log('loop is done');
+
+}
+countries();

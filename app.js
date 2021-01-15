@@ -1,5 +1,5 @@
 "use strict";
-
+function guessingGame(){
 // ask user name
 var guestName = prompt('Welcome to Fizzo Pannnosch.com ! Please enter your name - what follows is a short and simple guessing game about Fizzo');
 var correctAnswer = 0;
@@ -94,3 +94,6 @@ for (var i = 1; i <= 4; i++) {
 var el3 = document.getElementById('name3');
 el3.textContent = guestName + ', You already knew that number! It only took ' + i + ' tries for you to tune in. Great JOB, master';
 console.log('loop is done');
+
+}
+guessingGame(); 
