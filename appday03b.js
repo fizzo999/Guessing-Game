@@ -1,6 +1,6 @@
 
-// Question number 7 array
-function countries() {
+// Question number 7 array countries
+
 var countriesIveBeen = ['Austria', 'Germany', 'Switzerland', 'Russia', 'USA', 'Mexico', 'Canada', 'Spain', 'Portugal', 'Czech Republic', 'Slovania', 'Greece', 'Italy'];
 var correctGuessNumber = 0
 var triesLeft = 6;
@@ -41,5 +41,3 @@ var el5 = document.getElementById('name5');
 el5.textContent = countryListString;
 console.log('loop is done');
 
-}
-countries();
