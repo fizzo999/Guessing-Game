@@ -1,4 +1,4 @@
-"use strict";
+'use strict'
 // wrapping all scripts in a function and then calling it
 var guestName;
 function guessingGame() {
@@ -9,11 +9,11 @@ function guessingGame() {
   // setting up array for questions
   var questions = ['Does Fizzo live in WA state ? ', 'Does Fizzo study at Code Fellows ? ', 'Does Fizzo live in Olympia ? ', 'Does Fizzo love to code ? ', 'Does Fizzo like Electric Cars? '];
   var answers = [];
-  var please = 'Please answer Yes or No !'
+  var please = 'Please answer Yes or No !';
   var congrats = 'Congratulations, you are correct ';
   var answersTemp = '';
   var incorr = 'Incorrect, Fizzo ';
-  var correctEDAnswers = ['does live in WA state.', 'does study at Code Fellows.', 'lives in Olympia.', 'does love to <code>.', 'loves electric cars. Infact he drives one and LOVES it']
+  var correctEDAnswers = ['does live in WA state.', 'does study at Code Fellows.', 'lives in Olympia.', 'does love to <code>.', 'loves electric cars. Infact he drives one and LOVES it'];
   // question 1
   for (var i = 0; i < questions.length; i++) {
     answersTemp = prompt(questions[i] + please);
@@ -34,8 +34,8 @@ function guessingGame() {
   el2.textContent = guestName + ', You had ' + correctAnswer + ' correct answers and ' + wrongAnswer + ' incorrect answers.';
   // Question number 6 - secret number guessing game
   var secretNumber = Math.floor((Math.random() * 10) + 1);
-  var guessIt = 0
-  var triesLeft = 5
+  var guessIt = 0;
+  var triesLeft = 5;
   for (var i = 1; i <= 4; i++) {
     // console.log('loop is running' + i);
     guessIt = prompt('Guess a RANDOM number between 1 and 10 - you have ' + (triesLeft - i) + ' tries left');
@@ -51,6 +51,7 @@ function guessingGame() {
       alert('BINGO. You got it.');
       break;
     } else alert('numbers only please');
+    i--;
   }
   // output message #3
   var el3 = document.getElementById('name3');
@@ -59,7 +60,7 @@ function guessingGame() {
   // console.log(guestName);
   // Question number 7 array countries
   var countriesIveBeen = ['Austria', 'Germany', 'Switzerland', 'Russia', 'USA', 'Mexico', 'Canada', 'Spain', 'Portugal', 'Czech Republic', 'Slovania', 'Greece', 'Italy'];
-  var correctGuessNumber = 0
+  var correctGuessNumber = 0;
   var triesLeft = 6;
   var correctGuessArray = [];
   var answer2 = '';

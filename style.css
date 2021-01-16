@@ -31,12 +31,13 @@ a {
   color: #000;
 }
 
-/* header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 5;
-} */
+.placeHolder {
+  padding: 0;
+  margin: 0;
+  background: aquamarine;
+  height: 200px;
+  width: 100%;
+}
 
 nav {
   position: fixed;
@@ -86,11 +87,18 @@ a:hover {
   background: #fff;
 }
 
-
+/* 
 main {
   position: relative;
   top: 200px;
-}
+} */
+
+/* main::before {
+  background-color: aquamarine;
+  position: relative;
+  height: 400px;
+  width: 100%;
+} */
 
 .top {
   border: 1px solid black;

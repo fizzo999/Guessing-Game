@@ -1,10 +1,11 @@
+'use strict'
 // secret number guessing game VARIATION - random number 1-10
 
 function randNumbers() {
 
   var secretNumber = Math.floor((Math.random() * 10) + 1);
-  var guessIt = 0
-  var triesLeft = 5
+  var guessIt = 0;
+  var triesLeft = 5;
   for (var i = 1; i <= 4; i++) {
     // console.log('loop is running' + i);
     guessIt = prompt('Guess a number between 1 and 10 - you have ' + (triesLeft - i) + ' tries left');
