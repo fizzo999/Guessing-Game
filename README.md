@@ -36,6 +36,9 @@ After completing all of the requirements listed above, you may optionally challe
 + Make the number-guessing question use a random number as its correct answer.
 
 # PROJECT PROGRESS
+#### update 01/30/2021 - 
+I went back to my about me game and inserted into the html a div with an `id='hidden'` and set it in CSS to `visibility: hidden`. and now all the links from the navbar actually show up and point right to the part of the page.
+
 
 #### update 01/16/2021 - 
 I realize that I have no documentation for this exercise in the README.md so I start it. Now I have to backtrack on what I did when, but that`s ok. I am learning.
