@@ -41,7 +41,10 @@ function guessingGame() {
   for (var i = 0; i < questions.length; i++) {
     answersTemp = prompt(questions[i] + please);
     // console.log(questions[i] + ' : ' + answersTemp);
-    if (answersTemp == 'yes' || answersTemp == 'y') {
+    if (
+      answersTemp.toUpperCase() == 'YES' ||
+      answersTemp.toUpperCase() == 'Y'
+    ) {
       alert(congrats);
       correctAnswer += 1;
       answers.push(answersTemp);
